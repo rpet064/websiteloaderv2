@@ -1,0 +1,9 @@
+
+Here are a list of commands that can be inserted
+
+g = github.com
+p = portswigger.com
+y = youtube.com
+
+Insert them together at the start of the programme
+e.g gpy will open github, portswigger and youtube
