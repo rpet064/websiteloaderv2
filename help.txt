@@ -1,8 +1,9 @@
 
 Here are a list of commands that can be inserted
 
+c = canvas.auckland.ac.nz
 g = github.com
-p = portswigger.com
+p = portswigger.net
 y = youtube.com
 
 Insert them together at the start of the programme

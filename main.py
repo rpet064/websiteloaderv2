@@ -1,7 +1,5 @@
 from selenium import webdriver
 
-driver = webdriver.Chrome()
-
 def help():
     help_text = open('./help.txt', 'r')
     print(help_text.read())
@@ -13,8 +11,9 @@ def main():
     if user_input == "help":
         help()
     else:
+        driver = webdriver.Chrome()
         for i in range(len(user_input)):
-            driver.execute_script("google.com")
+            driver.execute_script(f"window.open('{youtube_login}')")
             driver.switch_to.window(driver.window_handles[i])
 
 if __name__ == "__main__":
