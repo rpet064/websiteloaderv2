@@ -130,4 +130,5 @@ cython_debug/
 # other
 .DS_Store
 chromedriver
-url.txt
+url.py
+.env
